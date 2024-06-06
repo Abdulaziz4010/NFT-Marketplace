@@ -1,0 +1,131 @@
+.header {
+  padding: 20px 0;
+  background-color: #2b2b2b;
+  position: sticky;
+  top: 0;
+  &__shrink {
+    box-shadow: 0px 0px 500px rgb(255, 255, 255);
+  }
+  .header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .header__items {
+      display: block;
+    }
+    .header__items__auth {
+      display: none;
+    }
+    .header__list {
+      position: fixed;
+      top: 0;
+      left: -100%;
+      width: 50%;
+      height: 100vh;
+      background-color: #111010c2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: white;
+      gap: 50px;
+      justify-content: center;
+      box-shadow: 0px 0px 10px skyblue;
+      transition: 0.5s;
+    }
+    .header__list-show {
+      left: 0;
+      top: 0;
+    }
+    .header__link {
+      color: white;
+      border-bottom: 2px solid transparent;
+      padding: 2px;
+      &:hover {
+        transition: 1s;
+        border-bottom-color: #d9d6d6;
+      }
+    }
+    .header__menu {
+      width: 30px;
+      // background: chocolate;
+      color: white;
+    }
+    .header__btn-hamburger {
+      background-color: transparent;
+      border: none;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .header {
+    padding: 0;
+    .header__nav {
+      height: 100px;
+      .nft {
+        width: 200px;
+      }
+      .header__menu {
+        // display: none;
+      }
+      .header__items {
+        display: block;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+      }
+      .header__list {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        display: flex;
+        position: static;
+        flex-direction: row;
+        box-shadow: none;
+        height: auto;
+        background-color: transparent;
+        width: auto;
+      }
+      .header__link {
+        display: flex;
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+      }
+      .header__items__auth {
+        display: block;
+        padding: 15px 30px;
+        font-size: 20px;
+        color: white;
+        background: #a259ff;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+      }
+      .header__btn-hamburger {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 1700px) {
+  .header {
+    .header__nav {
+      .nft {
+        width: 300px;
+      }
+      .header__items {
+        .header__list {
+          a {
+            font-size: 24px;
+          }
+        }
+        .header__items__auth {
+          padding: 20px 40px;
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
