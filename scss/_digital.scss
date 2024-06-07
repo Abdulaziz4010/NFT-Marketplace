@@ -151,12 +151,6 @@
   }
 }
 
-@media (max-width: 862px) {
-  .digital {
-    display: none;
-  }
-}
-
 @media (min-width: 1740px) {
   .digital {
     width: 100%;
@@ -187,5 +181,11 @@
     &__right__cards {
       border-radius: 100px 100px 30px 30px;
     }
+  }
+}
+
+@media (max-width: 862px) {
+  .digital {
+    display: none;
   }
 }
