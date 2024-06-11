@@ -1,0 +1,165 @@
+.artist__cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  background-color: #3b3b3b;
+  color: white;
+  padding: 50px;
+  margin-top: 80px;
+  .artist__cards__card {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background: #2b2b2b;
+    border-radius: 50px 50px 15px 15px;
+  }
+  .artist__big {
+    width: 100%;
+  }
+  .artist__card__info {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+  }
+  .artist__card__info__title {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .artist__info__avatar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .artist__avatar__name {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  .artist__price {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px;
+  }
+  .artist__price__title {
+    display: flex;
+    justify-content: space-between;
+    color: #858584;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .artist__price__prasy {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .artist__cards__card1 {
+    display: none;
+  }
+  .artist__cards__card2 {
+    display: none;
+  }
+  .artist__cards__card3 {
+    display: none;
+  }
+  .artist__cards__card4 {
+    display: none;
+  }
+  .artist__cards__card5 {
+    display: none;
+  }
+  .artist__cards__card6 {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .artist__cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+    .artist__cards__card {
+      width: 100%;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      background: #2b2b2b;
+      border-radius: 50px 50px 15px 15px;
+    }
+    .artist__cards__card1 {
+      display: block;
+      width: 100%;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      background: #2b2b2b;
+      border-radius: 50px 50px 15px 15px;
+    }
+    .artist__cards__card2 {
+      display: block;
+      width: 100%;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      background: #2b2b2b;
+      border-radius: 50px 50px 15px 15px;
+    }
+    .artist__cards__card3 {
+      display: block;
+      width: 100%;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      background: #2b2b2b;
+      border-radius: 50px 50px 15px 15px;
+    }
+  }
+}
+
+@media (min-width: 1100px) {
+  .artist__cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
+    .artist__cards__card {
+      width: 100%;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      background: #2b2b2b;
+      border-radius: 50px 50px 15px 15px;
+    }
+    .artist__cards__card4 {
+      display: block;
+      width: 100%;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      background: #2b2b2b;
+      border-radius: 50px 50px 15px 15px;
+    }
+    .artist__cards__card5 {
+      display: block;
+      width: 100%;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      background: #2b2b2b;
+      border-radius: 50px 50px 15px 15px;
+    }
+    .artist__cards__card6 {
+      display: block;
+      width: 100%;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      background: #2b2b2b;
+      border-radius: 50px 50px 15px 15px;
+    }
+  }
+}

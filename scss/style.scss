@@ -10,6 +10,7 @@
 @use "./join";
 @use "./footer";
 
+//
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
@@ -23,6 +24,7 @@
 
 body {
   background-color: #2b2b2b;
+  
 }
 .container {
   padding: 0px 30px;
@@ -35,5 +37,11 @@ button {
 @media (min-width: 992px) {
   .container {
     padding: 0px 70px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .container {
+    padding: 0px 40px;
   }
 }

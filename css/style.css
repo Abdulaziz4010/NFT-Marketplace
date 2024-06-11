@@ -76,7 +76,7 @@
   }
   .header .header__nav .header__list {
     display: flex;
-    gap: 40px;
+    gap: 30px;
     align-items: center;
     display: flex;
     position: static;
@@ -1621,5 +1621,10 @@ button {
 @media (min-width: 992px) {
   .container {
     padding: 0px 70px;
+  }
+}
+@media (min-width: 1100px) {
+  .container {
+    padding: 0px 40px;
   }
 }
