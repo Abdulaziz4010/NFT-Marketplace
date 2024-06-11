@@ -270,7 +270,7 @@
   color: #858584;
   font-size: 20px;
   padding: 20px;
-  justify-content: space-around;
+  justify-content: center;
   border-top: 1px solid rgba(133, 133, 132, 0.6156862745);
   border-bottom: 1px solid rgba(133, 133, 132, 0.6156862745);
 }
