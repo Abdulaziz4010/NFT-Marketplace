@@ -1,0 +1,173 @@
+.sigUp__hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: white;
+  .sigUp__card {
+    width: 100%;
+  }
+  .sigUp__mobile {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  .sigUp__planshet {
+    display: none;
+  }
+
+  .sigUp__hero__register {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .sigUp__hero__register__title {
+    font-size: 38px;
+    font-weight: 600;
+  }
+  .sigUp__hero__register__desc {
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 1px;
+  }
+  .sigUp__hero__register-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .sigUp__user {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px 30px;
+    align-items: center;
+    i {
+      color: #858584;
+      padding: 0px 5px;
+    }
+    input {
+      display: flex;
+      align-items: center;
+      border: none;
+      outline: none;
+      background-color: transparent;
+      //   padding: 20px;
+      &::placeholder {
+        color: #2b2b2b;
+      }
+    }
+  }
+  .sigUp__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: none;
+    background-color: #a259ff;
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .sigUp__hero {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    .sigUp__card {
+      width: 50%;
+    }
+    .sigUp__mobile {
+      display: none;
+    }
+    .sigUp__planshet {
+      display: block;
+    }
+    .sigUp__hero__register {
+      width: 50%;
+      display: flex;
+      align-items: start;
+      justify-content: center;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .sigUp__hero {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    .sigUp__card {
+      width: 50%;
+    }
+    .sigUp__mobile {
+      display: none;
+    }
+    .sigUp__planshet {
+      display: block;
+    }
+    .sigUp__hero__register {
+      width: 70%;
+      display: flex;
+      align-items: start;
+      justify-content: center;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}
+
+@media (min-width: 1240px) {
+  .sigUp__hero {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    .sigUp__card {
+      width: 50%;
+    }
+    .sigUp__mobile {
+      display: none;
+    }
+    .sigUp__planshet {
+      display: block;
+    }
+    .sigUp__hero__register {
+      width: 100%;
+      display: flex;
+      align-items: start;
+      justify-content: center;
+      flex-direction: column;
+      text-align: start;
+      gap: 20px;
+    }
+    .sigUp__hero__register-form {
+      display: flex;
+      gap: 30px;
+    }
+    .sigUp__hero__register__title {
+      text-align: start;
+    }
+    .sigUp__hero__register__desc {
+      letter-spacing: 1px;
+      line-height: 25px;
+      width: 60%;
+    }
+    .sigUp__user {
+      width: 70%;
+      padding: 15px;
+    }
+    .sigUp__btn {
+      width: 70%;
+      padding: 15px;
+    }
+  }
+}
